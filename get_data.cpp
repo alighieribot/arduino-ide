@@ -1,3 +1,5 @@
+//Etapa 1: Importar as bibliotecas necessárias
+
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BMP280.h>
@@ -5,6 +7,7 @@
 #include <SPI.h>
 #include <SD.h>
 
+//Etapa 2: Inicializar os sensores e o módulo SD
 // instância do sensor BMP280
 Adafruit_BMP280 bmp;
 
@@ -14,6 +17,7 @@ MPU6050 mpu;
 // pino do chip select para o módulo SD
 const int chipSelect = 4;
 
+//Etapa 3: Configurar os sensores e o módulo SD
 void setup() {
   Serial.begin(9600);
 
@@ -42,6 +46,7 @@ void setup() {
   }
 }
 
+//Etapa 4: Ler os dados dos sensores e escrevê-los no arquivo CSV
 void loop() {
   // pressão atmosférica e temperatura do BMP280
   float pressure = bmp.readPressure();
