@@ -37,3 +37,8 @@ void loop() {
     digitalWrite(ledPin3, HIGH);
   }
 }
+
+/*Neste código, lemos o valor do potenciômetro usando a função analogRead(). 
+Em seguida, desligamos todos os LEDs e acendemos um LED diferente com base no valor do potenciômetro. 
+Se o valor for menor que 342, acendemos o primeiro LED. Se o valor for menor que 684, acendemos o segundo LED. 
+Se o valor for maior ou igual a 684, acendemos o terceiro LED.*/
