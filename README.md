@@ -1,6 +1,5 @@
 
-/*
-   Introdução de Eletrônica:
+   # Introdução de Eletrônica:
 
    Eletrônica é o ramo da ciência e da engenharia que lida com o controle de elétrons em circuitos e componentes eletrônicos. Compreender alguns conceitos básicos de eletrônica é fundamental para entender os códigos e circuitos usados no Arduino.
 
@@ -22,10 +21,10 @@
    6. Conexões:
       Para conectar componentes ao Arduino, são usados fios condutores para estabelecer as conexões elétricas. Cada componente é conectado aos pinos corretos do Arduino para garantir que a corrente elétrica flua corretamente.
       
-*/
-
-/*
-   Regras Básicas de Eletrônica:
+      
+      
+      
+   # Regras Básicas de Eletrônica:
 
    1. Tensão (Voltagem):
       - A tensão, medida em volts (V), representa a diferença de potencial elétrico entre dois pontos em um circuito.
@@ -58,7 +57,9 @@
 
 
 
-    Exercícios:
+
+
+    # Exercícios:
     
     Calcule a diferença de potencial entre dois pontos A e B, em um circuito, se V(A) = 10V e V(B) = 5V.
     
@@ -74,7 +75,7 @@
 
 
 
-    Respostas:
+    # Respostas:
 
     ΔV = 10V - 5V = 5V
     I = 12V / 4Ω = 3A
@@ -84,6 +85,4 @@
     P = (2A)^2 * 5Ω = 20W
 
   Desafio: Crie um circuito no Arduino que acenda um LED quando a tensão lida por uma entrada analógica ultrapassar um determinado valor. Use as regras de tensão e comparadores para controlar o LED.
-
-*/
 
